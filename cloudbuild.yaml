@@ -15,7 +15,7 @@ steps:
       dotnet test --configuration Release --no-build --logger "html;LogFileName=index.html"
 artifacts:
   objects:
-    location: gs://bootcamp-mar30/pw-csharp-reports/
+    location: gs://bootcampmar30-jv/pw-csharp-reports/
     paths:
       - 'playwright-nunit/TestResults/**'
 options:
